@@ -23,15 +23,19 @@ it('Click on Property Price', function(){
 
   cy.get('#propertyPrice').click()
   cy.get('#propertyPrice').type('50000');
+  sleep(2000);
 
   cy.get('#deposit').click()
   cy.get('#deposit').type('50000');
+    sleep(2000);
 
   cy.get('#repayment').click()
   cy.get('#repayment').type('25');
+    sleep(2000);
 
   cy.get('#interest').click()
   cy.get('#interest').type('2.4');
+    sleep(2000);
 
 
 
